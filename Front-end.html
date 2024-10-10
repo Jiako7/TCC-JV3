@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Front-End</title>
+    <link rel="stylesheet" href="front.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Conteúdo Front-End</h1>
+        <div class="header-center">
+            <div class="search-bar">
+                <input id="searchInput" type="text" placeholder="Pesquisar...">
+                <button id="searchButton">Buscar</button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <a href="index.html"><i class="fa fa-home"></i> Início</a>
+            <a href="CSS.html"><i class="fa fa-video"></i> Códigos CSS</a>
+            <a href="JavaScript.html"><i class="fa fa-video"></i> Códigos JavaScript</a>
+
+        </aside>
+        
+        <main class="content" id="videoContainer">
+            <!-- Lista de Vídeos -->
+            <div class="video" data-title="Código de imagem" data-description="O código <img> é um dos mais simples do html , para adicionar ele basta escrever img e clicar na primeira opção , após isso você vai colocar o nome da imagem já salva nas aspas do src do código" data-image="img.png" data-copy-text='<img src="" alt= ""></img>'>
+                <img src="Img.png" alt="Thumbnail do vídeo">
+                <div class="video-title">Código de Imagem (img)</div>
+                <div class="video-description">Código de como colocar imagem no HTML.</div>
+            </div>
+            <div class="video" data-title="Diferentes tamanhos de letras" data-description="No Html temos funções diversas , uma delas é mudar o tamanho da letra no site , que é definida por h1-h6 , sendo h1 o maior tamanho e diminuindo gradualmente , para alterar o tamanho após copiar o código , apenas altere o numero ao lado do 'h'" data-image="img2.png" data-copy-text='<h1></h1>'>
+                <img src="img2.png" alt="Thumbnail do vídeo">
+                <div class="video-title">Diferentes tamanhos de letras (h1)</div>
+                <div class="video-description">Código de tamanho de letra no HTML</div>
+            </div>
+            <!-- Repita para outros vídeos com diferentes textos -->
+            <div class="video" data-title="Código de parágrafo" data-description="Sendo um dos códigos mais simples do HTML , o código <p> faz com que seja criado um parágrafo entre textos" data-image="img3.png" data-copy-text='<p> </p>'>
+                <img src="img3.png" alt="Thumbnail do vídeo">
+                <div class="video-title">Código de parágrafo (p)</div>
+                <div class="video-description">Código para criar parágrafo no HTML</div>
+            </div>
+            <div class="video" data-title="Código de centralizar no HTML" data-description="Centraliza elementos colocados no center dentro do HTML" data-image="img4.png" data-copy-text='<center></center>'>
+                <img src="img4.png" alt="Thumbnail do vídeo">
+                <div class="video-title">Código de centralizar (center)</div>
+                <div class="video-description">Códgio de como centralizar um elemnto no HTML</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 5" data-description="Descrição breve do vídeo 5." data-image="https://via.placeholder.com/640x364" data-copy-text="Texto do Vídeo 5 para copiar.">
+                <img src="https://via.placeholder.com/640x364" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 5</div>
+                <div class="video-description">Descrição breve do vídeo 5.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 6" data-description="Descrição breve do vídeo 6." data-image="https://via.placeholder.com/640x365" data-copy-text="Texto do Vídeo 6 para copiar.">
+                <img src="https://via.placeholder.com/640x365" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 6</div>
+                <div class="video-description">Descrição breve do vídeo 6.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 7" data-description="Descrição breve do vídeo 7." data-image="https://via.placeholder.com/640x366" data-copy-text="Texto do Vídeo 7 para copiar.">
+                <img src="https://via.placeholder.com/640x366" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 7</div>
+                <div class="video-description">Descrição breve do vídeo 7.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 8" data-description="Descrição breve do vídeo 8." data-image="https://via.placeholder.com/640x367" data-copy-text="Texto do Vídeo 8 para copiar.">
+                <img src="https://via.placeholder.com/640x367" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 8</div>
+                <div class="video-description">Descrição breve do vídeo 8.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 9" data-description="Descrição breve do vídeo 9." data-image="https://via.placeholder.com/640x368" data-copy-text="Texto do Vídeo 9 para copiar.">
+                <img src="https://via.placeholder.com/640x368" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 9</div>
+                <div class="video-description">Descrição breve do vídeo 9.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 10" data-description="Descrição breve do vídeo 10." data-image="https://via.placeholder.com/640x369" data-copy-text="Texto do Vídeo 10 para copiar.">
+                <img src="https://via.placeholder.com/640x369" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 10</div>
+                <div class="video-description">Descrição breve do vídeo 10.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 11" data-description="Descrição breve do vídeo 11." data-image="https://via.placeholder.com/640x370" data-copy-text="Texto do Vídeo 11 para copiar.">
+                <img src="https://via.placeholder.com/640x370" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 11</div>
+                <div class="video-description">Descrição breve do vídeo 11.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 12" data-description="Descrição breve do vídeo 12." data-image="https://via.placeholder.com/640x371" data-copy-text="Texto do Vídeo 12 para copiar.">
+                <img src="https://via.placeholder.com/640x371" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 12</div>
+                <div class="video-description">Descrição breve do vídeo 12.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 13" data-description="Descrição breve do vídeo 13." data-image="https://via.placeholder.com/640x372" data-copy-text="Texto do Vídeo 13 para copiar.">
+                <img src="https://via.placeholder.com/640x372" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 13</div>
+                <div class="video-description">Descrição breve do vídeo 13.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 14" data-description="Descrição breve do vídeo 14." data-image="https://via.placeholder.com/640x373" data-copy-text="Texto do Vídeo 14 para copiar.">
+                <img src="https://via.placeholder.com/640x373" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 14</div>
+                <div class="video-description">Descrição breve do vídeo 14.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 15" data-description="Descrição breve do vídeo 15." data-image="https://via.placeholder.com/640x374" data-copy-text="Texto do Vídeo 15 para copiar.">
+                <img src="https://via.placeholder.com/640x374" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 15</div>
+                <div class="video-description">Descrição breve do vídeo 15.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 16" data-description="Descrição breve do vídeo 16." data-image="https://via.placeholder.com/640x375" data-copy-text="Texto do Vídeo 16 para copiar.">
+                <img src="https://via.placeholder.com/640x375" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 16</div>
+                <div class="video-description">Descrição breve do vídeo 16.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 17" data-description="Descrição breve do vídeo 17." data-image="https://via.placeholder.com/640x376" data-copy-text="Texto do Vídeo 17 para copiar.">
+                <img src="https://via.placeholder.com/640x376" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 17</div>
+                <div class="video-description">Descrição breve do vídeo 17.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 18" data-description="Descrição breve do vídeo 18." data-image="https://via.placeholder.com/640x377" data-copy-text="Texto do Vídeo 18 para copiar.">
+                <img src="https://via.placeholder.com/640x377" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 18</div>
+                <div class="video-description">Descrição breve do vídeo 18.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 19" data-description="Descrição breve do vídeo 19." data-image="https://via.placeholder.com/640x378" data-copy-text="Texto do Vídeo 19 para copiar.">
+                <img src="https://via.placeholder.com/640x378" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 19</div>
+                <div class="video-description">Descrição breve do vídeo 19.</div>
+            </div>
+            <div class="video" data-title="Título do Vídeo 20" data-description="Descrição breve do vídeo 20." data-image="https://via.placeholder.com/640x379" data-copy-text="Texto do Vídeo 20 para copiar.">
+                <img src="https://via.placeholder.com/640x379" alt="Thumbnail do vídeo">
+                <div class="video-title">Título do Vídeo 20</div>
+                <div class="video-description">Descrição breve do vídeo 20.</div>
+            </div>
+        </main>
+        
+    </div>
+    
+    <!-- O Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="modal-title"></h2>
+            <img src="" alt="Modal Video" class="modal-image">
+            <p class="modal-description"></p>
+            <button id="modalButton" data-copy-text="">Copiar Texto</button> <!-- Botão para copiar texto -->
+        </div>
+    </div>
+    
+    <script src="front.js"></script>
+       
+</body>
+</html>
